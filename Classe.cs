@@ -8,7 +8,7 @@ namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentr
         static void Main(string[] args) // Declaração padrão do entry point, ponto de de entrada, inicio do programa
         {
             Console.WriteLine("Primeiro Programa C#"); //Método para imprimir valores escritos ou passado por variáveis ou parâmetros
-            /*
+            
             //Declaração de Váriaivies Locais
             sbyte  v_sbyte   = 126;         // até 127
             int    v_int     = 2147483647;  // até 2147483647
@@ -282,8 +282,6 @@ namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentr
             }
 
             Console.WriteLine("Programa Encerrado - Número Negativo");
-
-            */
 
             //Estrutura de Controle FOR
             Console.Write("Quantos Nº deseja Somar : ");
