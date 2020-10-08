@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentro do namespace(Primeiro) - Agrupa códigos do Projeto 
 {
-    class Program // Definição da Classe
+    class Placeholders_Interpolacao_Concatenacao // Definição da Classe
     {
         static void Main(string[] args) // Declaração padrão do entry point, ponto de de entrada, inicio do programa
         {
