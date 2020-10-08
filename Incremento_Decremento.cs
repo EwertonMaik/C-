@@ -1,5 +1,4 @@
 using System; //NameSpace da Linguagem que contêm diversas classes e métodos
-using System.Globalization;
 
 namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentro do namespace(Primeiro) - Agrupa códigos do Projeto 
 {
