@@ -1,4 +1,6 @@
-﻿namespace Primeiro
+using System;
+
+namespace Primeiro
 {
     //Classe para representar a estrutura de um Triângulo
     class Triangulo
