@@ -14,3 +14,16 @@ F11 - Executar um passo (entra na função)
 SHIFT + F11 - Sair método em execução
 
 SHIFT + F5  - Parar Debug
+
+Este repositório contêm alguns exemplos práticos e projetos em desenvolvimentos da Linguágem C# usando;
+Classes
+Atributos
+Encapsulamento
+Construtores
+Estruturas IF ElSE - Simples, Composta e Encadeada
+Estrutura For
+Estrutura While
+Métodos/Funções/Operações
+Sobrecarga
+Herança
+Polimorfismo
