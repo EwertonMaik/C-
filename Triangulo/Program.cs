@@ -21,12 +21,9 @@ namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentr
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            // P = Perimetro
-            double p = (x.A + x.B + x.C) / 2.0; // Calculando o Perimetro
-            double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C) );
-
-            p = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
+            //Chamando Função para Calcular Perimetro e Área para X e Y
+            double areaX = x.Fun_Area();
+            double areaY = y.Fun_Area();
 
             Console.WriteLine("Área de X = " + areaX.ToString("F4"), CultureInfo.InvariantCulture );
             Console.WriteLine("Área de Y = " + areaY.ToString("F4"), CultureInfo.InvariantCulture);
