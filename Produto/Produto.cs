@@ -24,6 +24,14 @@ namespace Primeiro
         //Com isso a classe Produto pode ser Instânciada sem ter que passar parâmetros como o método anterior
         public Produto(){
         }
+        
+        //Método Construtor com utilização da palavra reservada (THIS)
+        //Que referencia a variável da Classe e não a local do método
+        public Produto(string Nome, double Preco)
+        {
+            this.Nome = Nome;
+            this.Preco = Preco;
+        }
 
         //Método Total de Produto
         public double ValorTotalEstoque()
