@@ -16,6 +16,9 @@ namespace Primeiro // Define que a Classe(Program) abaixo está organizada dentr
            
            //Classe Produto Instãnciada e valores passados por parãmetro
            Produto p = new Produto(Nome, Preco, Quant);
+           
+           //Outra forma de Instânciar e atribuir valores é
+           Produto p2 = new Produto {Nome = "Carro", Preco = 30000, Quant = 1 };
 
            Console.WriteLine("Dados do Produto: " + p); //A concatenação com o Objeto p irá chamar automaticamente o método ToString
 
