@@ -13,14 +13,26 @@ namespace Primeiro
         //Método Total de Produto
         public double ValorTotalEstoque()
         {
-            return preco * quant;
+            return Preco * Quant;
+        }
+
+        //Método Remover Quantidade Produto
+        public void RemoverProduto(int qtd)
+        {
+            Quant -= qtd;
+        }
+
+        //Método Adiciona Quantidade Produto
+        public void AdicionarProduto(int qtd)
+        {
+            Quant += qtd;
         }
 
         //Método Override para ToString
         public override string ToString()
         {
-            return nome + ", $ " + preco.ToString("F2", CultureInfo.InvariantCulture)
-                + ", " + quant +
+            return Nome + ", $ " + Preco.ToString("F2", CultureInfo.InvariantCulture)
+                + ", " + Quant +
                 " unidades, Total: $ "
                 + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
 
