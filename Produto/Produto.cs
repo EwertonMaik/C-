@@ -12,12 +12,17 @@ namespace Primeiro
 
         //Método Construtor
         //É executado quando uma classe é Instânciada
-        //Obrigatóriamente quando a classe for instãnciada deverá ser passado os valore por parâmetro
+        //Quando a classe for instãnciada poderá ser passado os valore por parâmetro
         public Produto(string nome, double preco, int quant)
         {
             Nome = nome;
             Preco = preco;
             Quant = quant;
+        }
+        
+        //Sobrecarga do Método Construtor
+        //Com isso a classe Produto pode ser Instânciada sem ter que passar parâmetros como o método anterior
+        public Produto(){
         }
 
         //Método Total de Produto
