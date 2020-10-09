@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 
 namespace Primeiro
@@ -6,9 +6,19 @@ namespace Primeiro
     //Classe para representar estrutura e métodos de Produto
     class Produto
     {
-        public string nome;
-        public double preco;
-        public int    quant;
+        public string Nome;
+        public double Preco;
+        public int    Quant;
+
+        //Método Construtor
+        //É executado quando uma classe é Instânciada
+        //Obrigatóriamente quando a classe for instãnciada deverá ser passado os valore por parâmetro
+        public Produto(string nome, double preco, int quant)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quant = quant;
+        }
 
         //Método Total de Produto
         public double ValorTotalEstoque()
