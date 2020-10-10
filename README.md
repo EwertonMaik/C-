@@ -18,3 +18,4 @@ SHIFT + F5  - Parar Debug
 Este repositório contêm alguns exemplos práticos e projetos em desenvolvimentos da Linguagem C# usando;
 Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta e Encadeada, Estrutura For,
 Estrutura While, Métodos, Sobrecarga métodos e construtores, Herança, Polimorfismo entre outros recursos.
+Usando this para diferênciar atributos de variáveis locais.
