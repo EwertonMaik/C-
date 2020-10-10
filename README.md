@@ -19,3 +19,15 @@ Este repositório contêm alguns exemplos práticos e projetos em desenvolviment
 Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta e Encadeada, Estrutura For,
 Estrutura While, Métodos, Sobrecarga métodos e construtores, Herança, Polimorfismo entre outros recursos.
 Usando this para diferênciar atributos de variáveis locais.
+
+Ordem de Construção de uma Classe
+
+Atributos privados
+
+Propriedades autoimplementadas
+
+Construtores
+
+Propriedades Customizadas
+
+Outros Métodos da classe
