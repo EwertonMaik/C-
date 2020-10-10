@@ -34,8 +34,13 @@ Outros Métodos da classe
 # Modificadores de Acesso para Membro de uma Classe
 
 1 - public (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly / classes fora do assembly)
+
 2 - protected internal (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly)
+
 3 - internal (própria classe / subclasses no assembly / classes do assembly)
+
 4 - protected (própria classe / subclasses no assembly / subclasses fora do assembly)
+
 5 - private protected (própria classe / subclasses no assembly)
+
 6 - private (própria classe)
