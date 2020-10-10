@@ -20,8 +20,7 @@ Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, 
 Estrutura While, Métodos, Sobrecarga métodos e construtores, Herança, Polimorfismo entre outros recursos.
 Usando this para diferênciar atributos de variáveis locais.
 
-Ordem de Construção de uma Classe
-
+# Ordem de Construção de uma Classe
 Atributos privados
 
 Propriedades autoimplementadas
@@ -31,3 +30,12 @@ Construtores
 Propriedades Customizadas
 
 Outros Métodos da classe
+
+# Modificadores de Acesso para Membro de uma Classe
+
+1 - public (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly / classes fora do assembly)
+2 - protected internal (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly)
+3 - internal (própria classe / subclasses no assembly / classes do assembly)
+4 - protected (própria classe / subclasses no assembly / subclasses fora do assembly)
+5 - private protected (própria classe / subclasses no assembly)
+6 - private (própria classe)
