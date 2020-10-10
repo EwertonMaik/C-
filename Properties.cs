@@ -14,7 +14,8 @@ namespace Primeiro
         public Properties()
         {
         }
-
+        
+        //Uma propriedade é um membro que oferece um mecanismo flexível para ler, gravar ou calcular o valor de um campo particular.
         //Utilizando Properties em vez de criar os Métodos Get e Set
         public string Nome {
             get { return _nome; }
