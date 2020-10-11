@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Primeiro
 {
-    //Classe para validar vetor
+    //Classe para validar vetor com Estruturda de Dados Valor /Struct
     class Vetor
     {
         //Método Main
