@@ -20,6 +20,12 @@ Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, 
 Estrutura While, Métodos, Sobrecarga métodos e construtores, Herança, Polimorfismo entre outros recursos.
 Usando this para diferênciar atributos de variáveis locais. O que são tipo de dados refrência e tipo valor / Struct.
 
+# Valores Padrão tipo de dados Classe, Struct, Arrays
+Números = 0;
+bool = false;
+char = caractere código 0;
+objeto = null;
+
 # Ordem de Construção de uma Classe
 Atributos privados
 
