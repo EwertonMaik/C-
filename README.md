@@ -1,4 +1,4 @@
-# Linguagem de Progrmação C#
+# Linguagem de Programação C#
 
 Debugging com Visual Studio
 
