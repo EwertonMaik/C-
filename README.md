@@ -25,7 +25,7 @@ Classe - Vantagem: usa todos recursos OO), Variáveis são ponteiros, precisa se
 
 Struct - Struct (É mais simples e performático, variáveis são caixa, não é preciso instânciar, mais é possível, não aceita null, não tem suporte a herança, aceita interfaces, y = x (recebe uma cópia de x), objetos instanciados no stack, objetos são desalocados imediatamente quando seu escopo de execução é finalizado ).
 
-# Memória
+# Memória - Stack e Heap
 Garbage Collector - Processo que gerencia memória de um programa. Monitora objetos dinamicamente no heap, desalocando os que não estão sendo mais usados.
 
 Desalocação por Escopo - O que é alocado dentro de um método é desalocado assim que a execução sair do escopo.
