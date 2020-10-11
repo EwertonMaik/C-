@@ -15,9 +15,9 @@ SHIFT + F11 - Sair método em execução
 SHIFT + F5  - Parar Debug
 
 Este repositório contêm alguns exemplos práticos e projetos em desenvolvimentos da Linguagem C# usando;
-Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta e Encadeada, Estrutura For,
+Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta e Encadeada, Estrutura For, Foreach,
 Estrutura While, Métodos, Sobrecarga, Métodos, Construtores, Herança, Polimorfismo entre outros recursos.
-Usando this para diferênciar atributos de variáveis locais. Nullable, Vetores, Matrizes, Modificador Params, Ref e Out.
+Usando this para diferênciar atributos de variáveis locais. Nullable, Vetores, Matrizes, Listas, Modificador Params, Ref e Out.
 Boxing e Unboxing.
 
 # Tipo de Dados Referência e Tipo Valor/Struct.
