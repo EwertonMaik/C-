@@ -4,7 +4,7 @@ using System.Globalization;
 namespace Primeiro
 {
     //Classe para validar vetor com Estruturda de Dados Valor /Struct
-    class Vetor
+    class Vetor_Struct
     {
         //Método Main
         static void Main(string[] args)
