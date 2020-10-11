@@ -19,8 +19,10 @@ Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, 
 Estrutura While, Métodos, Sobrecarga, Métodos, Construtores, Herança, Polimorfismo entre outros recursos.
 Usando this para diferênciar atributos de variáveis locais.
 
-# Tipo de dados refrência e tipo valor / Struct.
-Classe (Vantagem: usa todos recursos OO), Variáveis são ponteiros, precisa ser instânciada new, aceita valor null, suporta herança, y = x (y recebe o ponteiro de x), objetos instânciados do heap, objetos não utilizados são desalocados em um momento próximo pelo Garbage Collector.
+# Tipo de Dados Refrência e Tipo Valor/Struct.
+Classe - Vantagem: usa todos recursos OO), Variáveis são ponteiros, precisa ser instânciada new, aceita valor null, suporta herança, y = x (y recebe o ponteiro de x), objetos instânciados do heap, objetos não utilizados são desalocados em um momento próximo pelo Garbage Collector.
+
+Struct - Struct (É mais simples e performático, variáveis são caixa, não é preciso instânciar, mais é possível, não aceita null, não tem suporte a herança, aceita interfaces, y = x (recebe uma cópia de x), objetos instanciados no stack, objetos são desalocados imediatamente quando seu escopo de execução é finalizado ).
 
 # Valores Padrão tipo de dados Classe, Struct, Arrays
 Números = 0;
