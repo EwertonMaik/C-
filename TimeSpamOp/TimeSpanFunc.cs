@@ -1,9 +1,9 @@
 ﻿using System;
 
 
-namespace Primeiro.TimeSpamOp
+namespace Primeiro.TimeSpanOp
 {
-    //Classe para testar TimeSpam
+    //Classe para testar TimeSpan
     class TimeSpanFunc
     {
         ///Método Main
