@@ -25,8 +25,14 @@ namespace Enumeracoes
             Console.WriteLine("Convertido de Enum P/ String - " + str01);
 
             //Convertendo Tipo String para o Tipo ENUM
-            OrderStatus or01 = Enum.Parse<OrderStatus>("Delivered");
-            Console.WriteLine("Convertido de String P/ Enum - " + or01);
+            OrderStatus or01 = Enum.Parse<OrderStatus>("Delivered"); // Forma 01
+            Console.WriteLine("01 - Convertido de String P/ Enum - " + or01); 
+
+            or01 = (OrderStatus) Enum.Parse(typeof(OrderStatus), "Delivered"); // Forma 02
+            Console.WriteLine("02 - Convertido de String P/ Enum - " + or01);
+
+            Enum.TryParse("Delivered", out or01); // Forma 03
+            Console.WriteLine("03 - Convertido de String P/ Enum - " + or01);
 
         }
     }
