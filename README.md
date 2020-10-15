@@ -19,7 +19,7 @@ Este repositório contêm alguns exemplos práticos e projetos em desenvolviment
 Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta e Encadeada, Estrutura For, Foreach,
 Estrutura While, Métodos, Sobrecarga, Métodos, Construtores, Herança, Polimorfismo entre outros recursos.
 Usando this para diferênciar atributos de variáveis locais. Nullable, Vetores, Matrizes, Listas, Modificador Params, Ref e Out.
-Boxing e Unboxing.
+Boxing e Unboxing. Composição.
 
 # Tipo de Dados Referência e Tipo Valor/Struct.
 Classe - Vantagem: usa todos recursos OO), Variáveis são ponteiros, precisa ser instânciada new, aceita valor null, suporta herança, y = x (y recebe o ponteiro de x), objetos instânciados do heap, objetos não utilizados são desalocados em um momento próximo pelo Garbage Collector.
