@@ -17,7 +17,9 @@ namespace ProjectHerancaPolimorfismo.Heranca
             Account acc01 = new Account(12345, "Carlos", 0.0); //Classe Genérica / SuperClasse
             BusinessAccount bac01 = new BusinessAccount(67891, "Jonas", 0.0, 300); // Classe Especifica / SubClasse / Herança de Account
             SavingsAccount sac01 = new SavingsAccount(7532, "Maria", 2000, 1);     // Classe Especifica / SubClasse / Herança de Account
-
+            
+            //Exemplo de Polimorfismo (Upcasting e Downcasting)
+            
             //Upcasting Conversão (SubClasse para SuperClasse) - Implícito
             //Uso Polimorfismo
             acc01 = bac01;
