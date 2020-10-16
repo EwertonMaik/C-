@@ -62,3 +62,15 @@ Outros Métodos da classe
 5 - private protected (própria classe / subclasses no assembly)
 
 6 - private (própria classe)
+
+# Classes e Métodos selead
+*Classe - Impede que a Classe possa ser Herdada
+namespace Entities {
+	sealed class Product {
+	}
+}
+
+*Método - Impede o método de ser sobreposto novamente.
+public sealed override void WithDraw(double amount) {
+    Balance -= amount;
+}
