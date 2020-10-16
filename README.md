@@ -65,12 +65,9 @@ Outros Métodos da classe
 
 # Classes e Métodos selead
 Classe - Impede que a Classe possa ser Herdada
---namespace Entities {
---	sealed class Product {
---	}
---}
+
+sealed class Product {...}
 
 Método - Impede o método de ser sobreposto novamente.
---public sealed override void WithDraw(double amount) {
---   Balance -= amount;
---}
+
+public sealed override void WithDraw (double amount) {...}
