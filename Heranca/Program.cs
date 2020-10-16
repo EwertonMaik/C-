@@ -19,6 +19,7 @@ namespace ProjectHerancaPolimorfismo.Heranca
             SavingsAccount sac01 = new SavingsAccount(7532, "Maria", 2000, 1);     // Classe Especifica / SubClasse / Herança de Account
             
             //Exemplo de Polimorfismo (Upcasting e Downcasting)
+            //Várias do Mesmo tipo, instãnciada com objetos diverentes, vão ter comportamentos diferentes
             
             //Upcasting Conversão (SubClasse para SuperClasse) - Implícito
             //Uso Polimorfismo
