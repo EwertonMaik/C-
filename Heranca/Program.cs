@@ -1,4 +1,5 @@
-﻿using ProjectHerancaPolimorfismo.Heranca.Entities;
+﻿using System;
+using ProjectHerancaPolimorfismo.Heranca.Entities;
 
 namespace ProjectHerancaPolimorfismo.Heranca
 {
@@ -7,12 +8,11 @@ namespace ProjectHerancaPolimorfismo.Heranca
         //Método Principal
         static void Main(string[] args)
         {
+            
             //Declarando e instânciando a classe BusinessAccount
             BusinessAccount businessAccount = new BusinessAccount(84559, "Pedro Paulo", 2000, 1000);
 
-            //businessAccount.Balance = 5000; // Obtem erro, atributo é Protected, só pode ser usando dentro de Account e BusinnesAccount
-
-            /*  ******************************************************  */
+            //businessAccount.Balance = 5000; // Obtem erro, atributo é Protected, só pode ser usando dentro de Account e BusinnesAccount          
 
             Account acc01 = new Account(12345, "Carlos", 0.0); //Classe Genérica / SuperClasse
             BusinessAccount bac01 = new BusinessAccount(67891, "Jonas", 0.0, 300); // Classe Especifica / SubClasse / Herança de Account
@@ -38,6 +38,27 @@ namespace ProjectHerancaPolimorfismo.Heranca
             {
                 bac02 = (BusinessAccount) acc03; // Isso não será executado, e também obteria erro, não é possível de SubClasse para SubClasse
             }
+            
+
+            Console.WriteLine("Validando os Métodos de Sobreposição que foram desenvolvidos :");
+            Console.WriteLine("Class Account / SuperClasse o padrão é o valor do Saque - R$ 5,00");
+            Console.WriteLine("Class SavingsAccount / SubClasse de Account, fora Subscrito e não desconta nada para saque");
+            Console.WriteLine("Class BusinessAccount / SubClasse de Account, fora Subscrito, manten o desconto dos R$ 5,00 e é cobrado mais R$ 2,00");
+
+            //Todos com o Valor de R$ 1.000,00 na Conta
+            Account         c01 = new Account(1, "Proprietario 01", 1000);
+            BusinessAccount c02 = new BusinessAccount(2, "Proprietario 02", 1000, 0);
+            SavingsAccount  c03 = new SavingsAccount(3, "Proprietario 03", 1000, 0);
+
+            //Sacando R$ 900,00 das 3 Constas
+            c01.WithDraw(900);
+            c02.WithDraw(900);
+            c03.WithDraw(900);
+
+            //Consultando o Soldo das 3 Contas
+            Console.WriteLine("Saque Account.........: {0}", c01.Balance);
+            Console.WriteLine("Saque BusinessAccount.: {0}", c02.Balance);
+            Console.WriteLine("Saque SavingsAccount..: {0}", c03.Balance);
         }
     }
 }
