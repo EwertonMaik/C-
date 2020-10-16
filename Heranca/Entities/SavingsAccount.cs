@@ -26,7 +26,8 @@
         }
 
         //Subscrever Método WithDraw / Saque Conta de Account
-        public override void WithDraw(double amount)
+        //sealed - Indica que esse Método não poderá ser mais Sobreposto
+        public sealed override void WithDraw(double amount)
         {
             //agora o método não desconta R$ 5,00 de taxa como o Método da Classe Account
             Balance -= amount;
