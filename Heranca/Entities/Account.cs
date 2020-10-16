@@ -21,9 +21,10 @@
         }
         
         //Método para Saque da Conta
-        public void WithDraw(double amount)
+        //Possui a declaração VITUAL - Indica que o método pode ser Sobrecrito em outra classe
+        public virtual void WithDraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5;
         }
 
         //Método para Depositar na Conta

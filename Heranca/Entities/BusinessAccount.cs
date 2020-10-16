@@ -26,5 +26,12 @@
                 Balance += amount;
             }
         }
+
+        //Subscrever Método WithDraw da Classe Account
+        public override void WithDraw(double amount)
+        {
+            base.WithDraw(amount); // Chama o método(WithDraw) pela Classe Account, que por padrão desconta 5 de saque
+            Balance -= 2.0; //E depois, para esta classe Businessaccount, desconta mais 2
+        }
     }
 }
