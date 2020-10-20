@@ -1,4 +1,4 @@
-# 💚 Linguagem de Programação C#
+# ❤️ Linguagem de Programação C#
 
 * Usando Visual Studio 2019 / .NET Framework e .NET CORE
 * Debugging com Visual Studio
