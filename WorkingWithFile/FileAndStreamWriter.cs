@@ -10,8 +10,8 @@ namespace WorkingWithFile
         static void Main(string[] args)
         {
             //Declarado uma duas variáveis strings contendo o arquivo 1 que tem texto e o 3 que está vazio
-            string caminhoArquivo = @"C:\Udemy\C# COMPLETO 2020 Programação Orientada a Objetos + Projetos 37_horas\CAP_13\File1.txt";
-            string caminhoDestino = @"C:\Udemy\C# COMPLETO 2020 Programação Orientada a Objetos + Projetos 37_horas\CAP_13\File3.txt";
+            string caminhoArquivo = @"C:\File1.txt";
+            string caminhoDestino = @"C:\File3.txt";
 
             try
             {
