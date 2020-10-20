@@ -63,3 +63,11 @@ public sealed override void WithDraw (double amount) {...}
 * 2 - catch (Código que irá capturar e mostrar as mensagens de erro)
 * 3 - finally (Código que é executado independente se houver ou não, um erro)
 * Classe SystemException (IndexOutofRangeException, NullReferenceException, InvalidCastException, OutOfmemoryException, ArgumentException(ArgumentNullException, ArgumentOutOfRangeException) , ExternalExcption(ComException, SEHException), ArithmeticException(DivideByZeroException, OverflowException) ))
+
+# ✔️ Classes Tratam Arquivos
+
+* File, FileInfo, FileStream, StreamReader, StreamWriter - Pertencem ao NameSpace System.IO
+* IOException (DirectoryNotFoundException, DriveNotFoundException, EndOfStreamException, FileLoadException, FileNotFoundException, PathTooLongException, PipeException)
+NameSpace System.IO
+* Objetos IDisposable não são gerenciados pelo CLR e precisam ser fechados manualmente: Font, FileStream, StreamReader, StreamWriter.
+* E como alternativa, o C# possui o bloco using(){}, os objetos instânciados dentro dele é finalizado ao encerrado a execução do bloco. Ele permite ser cascateado também, using () { using () { } }
