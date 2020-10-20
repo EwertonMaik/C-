@@ -7,8 +7,8 @@ namespace WorkingWithFile
     {
         static void Main(string[] args)
         {
-            string caminhoArquivo = @"C:\Udemy\C# COMPLETO 2020 Programação Orientada a Objetos + Projetos 37_horas\CAP_13\File1.txt";
-            string caminhoDestino = @"C:\Udemy\C# COMPLETO 2020 Programação Orientada a Objetos + Projetos 37_horas\CAP_13\File2.txt";
+            string caminhoArquivo = @"C:\File1.txt";
+            string caminhoDestino = @"C:\File2.txt";
             
             try
             {
