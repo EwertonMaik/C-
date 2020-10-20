@@ -13,7 +13,7 @@ namespace EstruturaException
             try
             {
                 //Declaração e Entrada de Dados Convertidos para INT
-                //Caso seje Letra, ou divisão por 0, o erro será capiturado no CATCH
+                //Caso seje Letra, ou divisão por 0, o erro será capturado no CATCH
                 Console.WriteLine("Digite 2 Nº : ");
                 int t01 = int.Parse(Console.ReadLine());
                 int t02 = int.Parse(Console.ReadLine());
