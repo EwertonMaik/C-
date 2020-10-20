@@ -55,3 +55,11 @@ objeto = null;
 sealed class Product {...}
 * Método - Impede o método de ser sobreposto novamente.
 public sealed override void WithDraw (double amount) {...}
+
+# ✔️ Classes Tratamento de Exceções
+
+* Tratar erros de forma consistente e flexível. Principais são Exception (SystemException / ApplicationException)
+**1 - try (Código que é executado e pode ocorrer um erro)
+**2 - catch (Código que irá capturar e mostrar as mensagens de erro)
+**3 - finally (Código que é executado independente se houver ou não, um erro)
+* Classes (Execption / ApplicationException / SystemException (IndexOutofRangeException, NullReferenceException, InvalidCastException, OutOfmemoryException, Argumentexception, ExternalExcption, ArithmeticException))
