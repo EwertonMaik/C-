@@ -9,7 +9,7 @@ namespace WorkingWithFile
         static void Main(string[] args)
         {
             //Declarando Variáveis
-            string caminhoArquivo = @"C:\Udemy\C# COMPLETO 2020 Programação Orientada a Objetos + Projetos 37_horas\CAP_13\File1.txt";
+            string caminhoArquivo = @"C:\File1.txt";
             FileStream fileStream = null;
             StreamReader streamReader = null;
 
