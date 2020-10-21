@@ -73,3 +73,11 @@ NameSpace System.IO
 * E como alternativa, o C# possui o bloco using(){}, os objetos instânciados dentro dele é finalizado ao encerrado a execução do bloco. Ele permite ser cascateado também, using () { using () { } }
 * Path - nameSpace System.IO, realiza operações com strings que contém informações de arquivos de pastas
 * Trabalha com Diretórios : Directory - operações static, não precisa instânciar. DirectoryInfo - operações instância.
+
+# ✔️ Interface
+
+* Interface é um tipo que define um conjunto de operações que uma classe ou struct deve implemtar ao receber a determinada interface. Permite Baixo Acoplamento e flexíveis.
+* Injeção de dependência, informar o objeto por meio do construtor, para qual ele implementa a determinada interface
+* Inversão de Controle : Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instânciar suas dependências.
+* Injeção de dependência : É uma forma de realizar a inversão de controle: um componente externo instãncia a dependência, que é então injetada no objeto "pai".
+* Pode ser implementada pelo Construtor, Objetos de Instãnciação (Builder / Factory), Container / Framework
