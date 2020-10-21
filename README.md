@@ -74,7 +74,7 @@ NameSpace System.IO
 * Path - nameSpace System.IO, realiza operações com strings que contém informações de arquivos de pastas
 * Trabalha com Diretórios : Directory - operações static, não precisa instânciar. DirectoryInfo - operações instância.
 
-# ✔️ Interface
+# ✔️ Interfaces
 
 * Interface é um tipo que define um conjunto de operações que uma classe ou struct deve implemtar ao receber a determinada interface. Permite Baixo Acoplamento e flexíveis.
 * Injeção de dependência, informar o objeto por meio do construtor, para qual ele implementa a determinada interface
