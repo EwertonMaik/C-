@@ -71,3 +71,5 @@ public sealed override void WithDraw (double amount) {...}
 NameSpace System.IO
 * Objetos IDisposable não são gerenciados pelo CLR e precisam ser fechados manualmente: Font, FileStream, StreamReader, StreamWriter.
 * E como alternativa, o C# possui o bloco using(){}, os objetos instânciados dentro dele é finalizado ao encerrado a execução do bloco. Ele permite ser cascateado também, using () { using () { } }
+* Path - nameSpace System.IO, realiza operações com strings que contém informações de arquivos de pastas
+* Trabalha com Diretórios : Directory - operações static, não precisa instânciar. DirectoryInfo - operações instância.
