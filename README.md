@@ -82,3 +82,4 @@ NameSpace System.IO
 * Injeção de dependência : É uma forma de realizar a inversão de controle: um componente externo instãncia a dependência, que é então injetada no objeto "pai".
 * Pode ser implementada pelo Construtor, Objetos de Instãnciação (Builder / Factory), Container / Framework
 * Herança (Herda as caracteristicas - Reuso) X Interfaces (Deve cumprir Implementação do contrato). Relação é-um, Generalização / Especialização, Polimorfismo
+* O problema de Herança Multipla ou Diamante, que o CLR não permite, pode ser implementada de outra forma usando Interfaces.
