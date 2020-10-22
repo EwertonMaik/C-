@@ -13,7 +13,7 @@ namespace WorkingInterfaces.ClasseImplementTowInterfaces
              (Scanner e Impressora), devido essas duas classes terem como herança de sua Classe Pai (Dispositivos),
              Logo, o CLR não permitirá, essa herança multipla, pois terá métodos ambíguos sobrescritos da classe PAI.
 
-             O problema de Herança Multipla ou Diamante, pode ser implementada de outra usando Interfaces. 
+             O problema de Herança Multipla ou Diamante, que o CLR não permite, pode ser implementada de outra forma usando Interfaces. 
              */
 
             Console.WriteLine("*** IMPRESSORA - Classe Dispositivos / Interface IImpressora ***");
