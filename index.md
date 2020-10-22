@@ -1,37 +1,89 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/EwertonMaik/csharp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+(https://github.com/EwertonMaik/csharp) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## ❤️ Linguagem de Programação C#
 
-### Markdown
+* Usando Visual Studio 2019 / .NET Framework e .NET CORE
+* Debugging com Visual Studio
+* F9 - Marcar / Desmarcar BreakPoint
+* F5 - Iniciar / Continuar o Debug
+* F10 - Executar um passo (pula função)
+* F11 - Executar um passo (entra na função)
+* SHIFT + F11 - Sair método em execução
+* SHIFT + F5  - Parar Debug
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Este repositório contêm alguns exemplos práticos e projetos em desenvolvimentos da Linguagem C# usando;
+Classes, Atributos, Encapsulamento, Construtores, Estruturas IF ElSE - Simples, Composta, Encadeada e Ternário. Estrutura For, Foreach,
+Estrutura While, Métodos, Sobrecarga, Métodos, Construtores, Herança, Polimorfismo entre outros recursos.
+Uso de this para diferênciar atributos de variáveis locais. Nullable, Vetores, Matrizes, Listas, Modificador Params, Ref e Out.
+Enum, Boxing e Unboxing, composição, Upcasting, Downcasting.
 
-```markdown
-Syntax highlighted code block
+## ✔️ Tipo de Dados Referência e Tipo Valor/Struct.
+Classe - Vantagem: usa todos recursos OO), Variáveis são ponteiros, precisa ser instânciada new, aceita valor null, suporta herança, y = x (y recebe o ponteiro de x), objetos instânciados do heap, objetos não utilizados são desalocados em um momento próximo pelo Garbage Collector.
 
-# Header 1
-## Header 2
-### Header 3
+Struct - Struct (É mais simples e performático, variáveis são caixa, não é preciso instânciar, mais é possível, não aceita null, não tem suporte a herança, aceita interfaces, y = x (recebe uma cópia de x), objetos instanciados no stack, objetos são desalocados imediatamente quando seu escopo de execução é finalizado ).
 
-- Bulleted
-- List
+## ✔️ Memória - Stack e Heap
+Garbage Collector - Processo que gerencia memória de um programa. Monitora objetos dinamicamente no heap, desalocando os que não estão sendo mais usados.
 
-1. Numbered
-2. List
+Desalocação por Escopo - O que é alocado dentro de um método é desalocado assim que a execução sair do escopo.
+Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
 
-**Bold** and _Italic_ and `Code` text
+## ✔️ Valores Padrão tipo de dados Classe, Struct, Arrays
+Números = 0;
+bool = false;
+char = caractere código 0;
+objeto = null;
 
-[Link](url) and ![Image](src)
-```
+## ✔️ Ordem de Construção de uma Classe
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Atributos privados
+* Propriedades autoimplementadas
+* Construtores
+* Propriedades Customizadas
+* Outros Métodos da classe
 
-### Jekyll Themes
+## ✔️ Modificadores de Acesso para Membro de uma Classe
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EwertonMaik/csharp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* 1 - public (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly / classes fora do assembly)
+* 2 - protected internal (própria classe / subclasses no assembly / classes do assembly / subclasses fora do assembly)
+* 3 - internal (própria classe / subclasses no assembly / classes do assembly)
+* 4 - protected (própria classe / subclasses no assembly / subclasses fora do assembly)
+* 5 - private protected (própria classe / subclasses no assembly)
+* 6 - private (própria classe)
 
-### Support or Contact
+## ✔️ Classes e Métodos selead
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Classe - Impede que a Classe possa ser Herdada
+sealed class Product {...}
+* Método - Impede o método de ser sobreposto novamente.
+public sealed override void WithDraw (double amount) {...}
+
+## ✔️ Classes Tratamento de Exceções
+
+* Tratar erros de forma consistente e flexível. Principais são Exception (SystemException / ApplicationException)
+* 1 - try (Código que é executado e pode ocorrer um erro)
+* 2 - catch (Código que irá capturar e mostrar as mensagens de erro)
+* 3 - finally (Código que é executado independente se houver ou não, um erro)
+* Classe SystemException (IndexOutofRangeException, NullReferenceException, InvalidCastException, OutOfmemoryException, ArgumentException(ArgumentNullException, ArgumentOutOfRangeException) , ExternalExcption(ComException, SEHException), ArithmeticException(DivideByZeroException, OverflowException) ))
+
+## ✔️ Classes Tratam Arquivos
+
+* File, FileInfo, FileStream, StreamReader, StreamWriter - Pertencem ao NameSpace System.IO
+* IOException (DirectoryNotFoundException, DriveNotFoundException, EndOfStreamException, FileLoadException, FileNotFoundException, PathTooLongException, PipeException)
+NameSpace System.IO
+* Objetos IDisposable não são gerenciados pelo CLR e precisam ser fechados manualmente: Font, FileStream, StreamReader, StreamWriter.
+* E como alternativa, o C# possui o bloco using(){}, os objetos instânciados dentro dele é finalizado ao encerrado a execução do bloco. Ele permite ser cascateado também, using () { using () { } }
+* Path - nameSpace System.IO, realiza operações com strings que contém informações de arquivos de pastas
+* Trabalha com Diretórios : Directory - operações static, não precisa instânciar. DirectoryInfo - operações instância.
+
+## ✔️ Interfaces
+
+* Interface é um tipo que define um conjunto de operações que uma classe ou struct deve implemtar ao receber a determinada interface. Permite Baixo Acoplamento e flexíveis.
+* Injeção de dependência, informar o objeto por meio do construtor, para qual ele implementa a determinada interface
+* Inversão de Controle : Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instânciar suas dependências.
+* Injeção de dependência : É uma forma de realizar a inversão de controle: um componente externo instãncia a dependência, que é então injetada no objeto "pai".
+* Pode ser implementada pelo Construtor, Objetos de Instãnciação (Builder / Factory), Container / Framework
+* Herança (Herda as caracteristicas - Reuso) X Interfaces (Deve cumprir Implementação do contrato). Relação é-um, Generalização / Especialização, Polimorfismo
+* O problema de Herança Multipla ou Diamante, que o CLR não permite, pode ser implementada de outra forma usando Interfaces.
