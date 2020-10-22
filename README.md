@@ -89,3 +89,10 @@ NameSpace System.IO
 
 * Generics, permitem que classes, interfaces e métodos possam ser parametrizados por seu tipo. Oferecem Reuso, Type Safety, Performance, uso comum - Coleções.
 * GetHashCode e Equals - Classe Object, usada para comparar Objetos.
+* NameSpace - using System.Collections.Generic : HashSet<T> e SortedSet<T>, representa conjunto de elementos, possui interseção, união, diferença e não permite repetições, não posuem posição.
+* HashSet - Armazena em Tabela hash, Extremamente rápido, inserção, remoção e busca O(1). Ordem elementos não garantida.
+* SortedSet - Armazena em árvore, rápido, inserção, remoção e busca O(Log(n)). Armazenados ordenadamente conforme implementação
+IComparer<T>.
+* Alguns operações de métodos : add, clear, contais, unionwith, intersectwith, exceptwith, remove(T), removewhere(predicate).
+* Se GetHashCode e Equals NÃO estiverem implementados, Tipos referência: compara as referências dos objetos.
+* Tipos valor: comparar os valores dos atributos.
