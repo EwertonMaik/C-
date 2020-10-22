@@ -3,6 +3,7 @@
 namespace WorkingGenerics.Caso01
 {
     //Classe entidade contêm os serviços de impressão
+    //Os atributos desta classe, quando instânciados, só podem receber os valores de seu único Tipo
     class ServicoImpressao
     {
         //Atributos
@@ -12,7 +13,7 @@ namespace WorkingGenerics.Caso01
         //Método para Adicionar valores ao Vetor
         public void AdicionarValores(int valor)
         {
-            if (valor == 10) ///Lança exceção de erro caso esteja cheio
+            if (_count == 10) ///Lança exceção de erro caso esteja cheio
             {
                 throw new InvalidOperationException("InvalidOperationException - Vetor está cheio!");
             }

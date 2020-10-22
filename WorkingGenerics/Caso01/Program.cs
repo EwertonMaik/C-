@@ -6,7 +6,7 @@ namespace WorkingGenerics.Caso01
     class Program
     {
         //Método Principal
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             //Declarando variável
             ServicoImpressao simp = new ServicoImpressao();
@@ -24,6 +24,6 @@ namespace WorkingGenerics.Caso01
             //Imprimindo Valores
             simp.Imprimir();
             Console.WriteLine("Primeiro Valor : " + simp.PrimeiroValor() );
-        }
+        }*/
     }
 }
