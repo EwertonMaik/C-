@@ -84,3 +84,8 @@ NameSpace System.IO
 * Herança (Herda as caracteristicas - Reuso) X Interfaces (Deve cumprir Implementação do contrato). Relação é-um, Generalização / Especialização, Polimorfismo
 * O problema de Herança Multipla ou Diamante, que o CLR não permite, pode ser implementada de outra forma usando Interfaces.
 * Interface IComparable - Interface para comparar um objeto com outro, menor, maior ou igual - Compara dois objetos retornando um número inteiro
+
+# ✔️ Generics
+
+* Generics, permitem que classes, interfaces e métodos possam ser parametrizados por seu tipo. Oferecem Reuso, Type Safety, Performance, uso comum - Coleções.
+* GetHashCode e Equals - Classe Object, usada para comparar Objetos.
