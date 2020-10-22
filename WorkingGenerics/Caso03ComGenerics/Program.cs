@@ -9,7 +9,7 @@ namespace WorkingGenerics.Caso03ComGenerics
         static void Main(string[] args)
         {
             //Declarando variável da Classe com Generic e Type Safety
-            //Posso declarar a variável de definir qual será seu tipo
+            //Posso declarar a variável e definir qual será seu tipo
             ServicoImpressao<int> simp = new ServicoImpressao<int>();
             //ServicoImpressao<string> simp2 = new ServicoImpressao<string>();
 
