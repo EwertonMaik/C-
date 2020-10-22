@@ -8,6 +8,14 @@ namespace WorkingInterfaces.ClasseImplementTowInterfaces
         //Método main
         static void Main(string[] args)
         {
+            /*
+             Uma classe chamada ComboDispositivos, não consegue realizar herança multipla das classes
+             (Scanner e Impressora), devido essas duas classes terem como herança de sua Classe Pai (Dispositivos),
+             Logo, o CLR não permitirá, essa herança multipla, pois terá métodos ambíguos sobrescritos da classe PAI.
+
+             O problema de Herança Multipla ou Diamante, pode ser implementada de outra usando Interfaces. 
+             */
+
             Console.WriteLine("*** IMPRESSORA - Classe Dispositivos / Interface IImpressora ***");
             Impressora imp = new Impressora() { NumeroSerial = 1000 };
             imp.ProcessaDoc("Método Implementado da Classe Abstrata Dispositivos");
