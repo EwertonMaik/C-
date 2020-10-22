@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-(https://github.com/EwertonMaik/csharp) to maintain and preview the content for your website in Markdown files.
+(https://github.com/EwertonMaik/csharp)
 
 ## ❤️ Linguagem de Programação C#
 
