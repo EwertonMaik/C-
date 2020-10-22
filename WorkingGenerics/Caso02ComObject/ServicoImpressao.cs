@@ -3,7 +3,8 @@
 namespace WorkingGenerics.Caso02ComObject
 {
     //Classe entidade contêm os serviços de impressão
-    //Seus atributos são do Tipo Object, podendo receber qualquer valor de entrada
+    //Seus atributos são do Tipo Object, podendo receber qualquer valor de entrada, porém podem ocorrer erros que compilador não identificará
+    //E ser identificado somente em tempo de execução
     class ServicoImpressao
     {
         //Atributos
