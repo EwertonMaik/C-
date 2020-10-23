@@ -96,3 +96,7 @@ IComparer<T>.
 * Alguns operações de métodos : add, clear, contais, unionwith, intersectwith, exceptwith, remove(T), removewhere(predicate).
 * Se GetHashCode e Equals NÃO estiverem implementados, Tipos referência: compara as referências dos objetos.
 * Tipos valor: comparar os valores dos atributos.
+* Dictionary<TKay, TValue> : Coleção de pares (chave e valor), não permite repetição objeto chave. Elementos indexados pela chave - não possui posição, permite inserção e remoção.
+* Dictionary : Armazena em tabela hash, extremamente rápido, possui inserção, remoção e busca O(1), ordem elementos não garantida.
+* SortedDictionary : Armazena em árvore, rápida inserção, remoção e busca O(log(n) ). Elementos são armazenados ordenadamente conforme implantação, usa IComparer<T>.
+* Métodos (dictionary[key], add(key, value), clear(), count, containskey(key), containsValue(value), remove(key) ).
