@@ -35,6 +35,7 @@ namespace ExpressoesLambdaDelegatesLINQ.Delegate
             //Executando Método com Delegate
             r01 = opeMaior(a, b);
             r02 = opeSoma(a, b);
+            r02 = opeSoma.Invoke(a, b); // Sintaxe Alternativa para chamar o método
 
             Console.WriteLine($"Maio - {r01} / Soma - {r02}");
         }
