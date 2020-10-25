@@ -113,3 +113,19 @@ IComparer<T>.
 * Delegate Predicate, recebe um objeto do tipo T e retorna booleano.
 * Delegate Action - Método que recebe zero ou mais argumentos, possui 16 Sobrecargas.
 * Delegate Func - Função de LINQ : Método que recebe zero ou mais argumentos e retorna valor, possui 16 sobrecargas.
+
+## 🎯 Algumas Operações LINQ :
+- Filtering - Where, OfType
+- Sorting - OrderBy, OrderByDescending, ThenBy, ThenByDescending, Reverse
+- Set - Distinct, Except, Intersect, Union
+- Quantification - All, Any, Contains
+- Projection - Select, SelectMany
+- Partition - Skyp, Take
+- Join - Join, GroupJoin
+- Grouping - GroupBy
+- Generational - Empty
+- Equality - SequenceEquals
+- Element - ElementAt, First, FirstOrDefault, Last, LastOrDefault, Single, SingleOrDefault
+- Conversions - AsEnumerable, AsQueryable
+- Concatenation - Concat
+- Aggregation - Aggregate, Average, Count, LongCount, Max, Min, Sum 
