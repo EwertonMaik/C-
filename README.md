@@ -100,3 +100,16 @@ IComparer<T>.
 * Dictionary : Armazena em tabela hash, extremamente rápido, possui inserção, remoção e busca O(1), ordem elementos não garantida.
 * SortedDictionary : Armazena em árvore, rápida inserção, remoção e busca O(log(n) ). Elementos são armazenados ordenadamente conforme implantação, usa IComparer<T>.
 * Métodos (dictionary[key], add(key, value), clear(), count, containskey(key), containsValue(value), remove(key) ).
+
+# ✔️ Métodos de Extensão
+
+* Métodos de Extensão estendem a funcinalidade de um tipo classe ou struct, sem precisar alterar o código ou herdar esse tipo.
+* Passos para criar um método de extensão: 1 - Criar uma classe estática, 2 - Na classe, criar um método estático, 3 - O primeiro parâmetro do método deverá ter o prefixo this, seguido da declaração de um parâmetro do tipo que deseja estender. Esta será uma referência para o próprio objeto.
+
+# ✔️ Expressões Lambda, Delegates e LINQ
+
+* Delegates - Referência (com type-safe) para um ou mais métodos, tipo referência : Action, Func, Predicate.
+* Multicast Delegates - Guardam referência para mais de um método.
+* Delegate Predicate, recebe um objeto do tipo T e retorna booleano.
+* Delegate Action - Método que recebe zero ou mais argumentos, possui 16 Sobrecargas.
+* Delegate Func - Função de LINQ : Método que recebe zero ou mais argumentos e retorna valor, possui 16 sobrecargas.
