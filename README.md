@@ -115,8 +115,9 @@ IComparer<T>.
 * Delegate Func - Função de LINQ : Método que recebe zero ou mais argumentos e retorna valor, possui 16 sobrecargas.
 
 ## 🎯 Algumas Operações LINQ :
-## LINQ - Language Integrated Query - Namespace : System.Linq
-## Operações chamadas diretamente a partir das coleções. Possui diversas operações de consulta, como expressões Lambda e expressões de sintaxe SQL.
+  
+- LINQ - Language Integrated Query - Namespace : System.Linq
+- Operações chamadas diretamente a partir das coleções. Possui diversas operações de consulta, como expressões Lambda e expressões de sintaxe SQL.
 
 - Filtering - Where, OfType
 - Sorting - OrderBy, OrderByDescending, ThenBy, ThenByDescending, Reverse
